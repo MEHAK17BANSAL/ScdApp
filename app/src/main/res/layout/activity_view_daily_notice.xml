@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.scdapp.ui.ViewDailyNoticeActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/back">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp"
+            android:text="View Daily Notice"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/back"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/back"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="300dp"
+                        android:layout_gravity="center"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/round_edittext"
+                        android:hint="Title"
+                        android:textSize="20dp"
+                        android:maxLines="10"
+                        android:scrollbars="vertical"
+                        android:textStyle="bold"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="300dp"
+                        android:layout_height="64dp"
+                        android:layout_margin="20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/round_edittext"
+                        android:hint="body"
+                        android:maxLines="2000"
+                        android:padding="10dp"
+                        android:scrollbars="vertical" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/round_edittext"
+                        android:hint="01/01/2018"
+                        android:padding="10dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="57dp"
+        android:layout_height="101dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:id="@+id/linearlayoutrecycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textViewName7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewEmail7"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:text="body"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textdate"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="01/01/2018" />
+
+    </LinearLayout>
+</LinearLayout>
